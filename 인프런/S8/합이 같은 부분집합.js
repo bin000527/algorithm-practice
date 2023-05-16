@@ -1,7 +1,6 @@
 const solution = (set) => {
     let answer = 'NO';
 
-    // 첫 번째 부분집합에 포함되는지 여부를 나타내는 배열
     let check = Array.from({ length: set.length }, () => 0);
 
     const DFS = (idx) => {
